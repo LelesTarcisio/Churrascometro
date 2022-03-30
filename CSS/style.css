@@ -1,0 +1,38 @@
+body{
+    background-image: url(/Image/danny-de-jong-Np5GnOfsfo0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: auto;
+    background-color:#FFFAFAaa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{
+    display: block; /* não vai existir nada na lateral do input */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* faz com que o padding leve em consideração o tamanho do pai */
+    margin-bottom: 10px;
+}
+
+#titulo{
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-family: Andale Mono, monospace;
+}
+
+#bt{
+    font-size: 20px;
+    background-color:rgba(211, 15, 15, 0.842);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 150px;
+    font-family: Andale Mono, monospace;
+}
